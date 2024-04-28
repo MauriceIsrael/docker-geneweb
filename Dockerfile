@@ -1,17 +1,16 @@
-FROM ubuntu:19.04
-
-MAINTAINER Jeffery Fernandez <jefferyfernandez@gmail.com>
+FROM ubuntu
 
 RUN \
   apt-get update && \
-  apt-get -y install --no-install-recommends geneweb gwsetup tzdata && \
-  rm -fr /var/lib/apt/lists/*
+  apt-get -y install curl zip
+
+RUN useradd geneweb
 
 # Default language to be English
 ENV LANGUAGE en
 
 # Default access to gwsetup is from docker host
-ENV HOST_IP 172.17.0.1
+ENV HOST_IP 192.168.0.1
 
 # Copy script to local bin folder
 COPY bin/*.sh /usr/local/bin/
@@ -19,11 +18,14 @@ COPY bin/*.sh /usr/local/bin/
 # Make script executable
 RUN chmod a+x /usr/local/bin/*.sh
 
-# Change the geneweb home directory to our database path to avoid stomping on debian package path /var/lib/geneweb
-RUN usermod -d /usr/local/var/geneweb geneweb
+# Install geneweb
+RUN /usr/local/bin/install.sh
 
-# Ensure that the geneweb database dir exists and is owned by the geneweb user
-RUN mkdir -p /usr/local/var/geneweb && chown geneweb /usr/local/var/geneweb
+# Change the geneweb home directory to our database path to avoid stomping on debian package path /var/lib/geneweb
+RUN usermod -d /opt/geneweb/ geneweb 
+
+# Ensure that the geneweb user own every geneweb files
+RUN chown -R geneweb /opt/geneweb
 
 # Create a volume on the container
 VOLUME /usr/local/var/geneweb

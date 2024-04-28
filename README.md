@@ -11,7 +11,7 @@ Ensure you have [docker environment](https://www.docker.com/products/docker-desk
 
 ### Download the docker image
 ```
-docker pull jeffernz/geneweb:latest
+docker pull momoz/geneweb:latest
 ```
 
 ### Running the docker image
@@ -23,7 +23,7 @@ To launch the container, execute the following in your favourite shell:
 
 ```
 docker run -d \
-    --name jeffernz-geneweb \
+    --name momoz-geneweb \
     --restart unless-stopped \
     -p 2316:2316 -p 2317:2317 \
     -v ~/GenealogyData:/usr/local/var/geneweb \
@@ -67,18 +67,18 @@ Geneweb portal should be running at http://localhost:2317 and setup portal avail
 ## Shutdown
 To shutdown the container just run
 
-```docker stop jeffernz-geneweb```
+```docker stop momoz-geneweb```
 
 Cleanup the launched container
 
-```docker rm jeffernz-geneweb```
+```docker rm momoz-geneweb```
 
 ## Export as GEDCOM
 
 To obtain a backup of all the databases in your running GeneWeb container, you can execute
 
 ```
-docker exec -it jeffernz-geneweb backup.sh
+docker exec -it momoz-geneweb backup.sh
 ```
 
 The backup will be stored in your home directory under `~/GenealogyData/backup`
@@ -89,7 +89,7 @@ To import a GEDCOM file into GeneWeb, place the GEDCOM file under `~/GenealogyDa
 and then execute the import command on the running instance. e.g.
 
 ```
-docker exec -it jeffernz-geneweb import.sh
+docker exec -it momoz-geneweb import.sh
 ```
 
 This will import the GEDCOM file into GeneWeb. Note, all GEDCOM files in the import

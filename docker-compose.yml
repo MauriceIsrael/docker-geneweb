@@ -1,8 +1,8 @@
-version: "3.7"
+version: "0.1"
 
 services:
   portal:
-    image: jeffernz/geneweb:latest
+    image: momoz/geneweb:latest
     volumes:
       - bases:/usr/local/var/geneweb
     ports:
@@ -15,7 +15,7 @@ services:
     restart: always
 
   setup:
-    image: jeffernz/geneweb:latest
+    image: momoz/geneweb:latest
     volumes:
       - bases:/usr/local/var/geneweb
     ports:

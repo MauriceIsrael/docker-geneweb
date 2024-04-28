@@ -2,8 +2,8 @@
 
 set -e
 
-PROJECT_NAME=jeffernz-geneweb
-PROJECT_RELEASE=1.3
+PROJECT_NAME=momoz-geneweb
+PROJECT_RELEASE=0.1
 
 WEB_PORT=2317
 SETUP_PORT=2316
@@ -59,12 +59,12 @@ RUNNING
 
 function checkoutRepo()
 {
-    git clone https://github.com/jeffery/docker-geneweb.git
+    git clone git@github.com:MauriceIsrael/docker-geneweb.git
 }
 
 function buildContainer()
 {
-    docker build -t jeffernz/geneweb:latest -t jeffernz/geneweb:${PROJECT_RELEASE} .
+    docker build -t momoz/geneweb:latest -t momoz/geneweb:${PROJECT_RELEASE} .
 }
 
 function runContainer()
@@ -86,7 +86,7 @@ function runContainer()
         --env LANGUAGE=${LANGUAGE} \
         --env TZ=${TIME_ZONE} \
         --name $(containerName) \
-        jeffernz/geneweb:latest
+        momoz/geneweb:latest
 }
 
 function stopContainer()
