@@ -10,13 +10,17 @@ RUN useradd geneweb
 ENV LANGUAGE en
 
 # Default access to gwsetup is from docker host
-ENV HOST_IP 192.168.0.1
+ENV HOST_IP 172.17.0.1
 
 # Copy script to local bin folder
 COPY bin/*.sh /usr/local/bin/
 
 # Make script executable
 RUN chmod a+x /usr/local/bin/*.sh
+
+# Copy AnnieRose DB to local import folder
+RUN mkdir -p /tmp/DB/
+COPY import/AnnieRose.gw /tmp/DB
 
 # Install geneweb
 RUN /usr/local/bin/install.sh
@@ -28,7 +32,7 @@ RUN usermod -d /opt/geneweb/ geneweb
 RUN chown -R geneweb /opt/geneweb
 
 # Create a volume on the container
-VOLUME /usr/local/var/geneweb
+VOLUME /opt/geneweb
 
 # Expose the geneweb and gwsetup ports to the docker host
 EXPOSE 2317

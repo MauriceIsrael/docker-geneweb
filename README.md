@@ -33,7 +33,7 @@ docker run -d \
 If you are accessing GeneWeb setup from a different host, add the environment variable `HOST_IP` to the run command. e.g.
 
 ```
---env HOST_IP=192.168.0.10
+--env HOST_IP=127.0.0.1
 ```
 
 If you need to run GeneWeb in a different language, add the environment variable `LANGUAGE` to the run command. e.g.

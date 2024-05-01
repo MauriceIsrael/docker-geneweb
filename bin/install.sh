@@ -8,8 +8,16 @@ package_url=https://github.com/geneweb/geneweb/releases/download/v7.1-beta/genew
 curl -L $package_url -o /tmp/package.zip
 
 # Extract the package to the /opt directory
-mkdir /opt/geneweb
+DIR_PATH="/opt/geneweb"
+
+if [ -d "$DIR_PATH" ]; then
+  echo "Directory $DIR_PATH already exists."
+else
+  echo "Directory $DIR_PATH does not exist."
+  mkdir /opt/geneweb
+fi
 unzip /tmp/package.zip -d /opt/geneweb/
 
 # Remove the downloaded package file
 rm /tmp/package.zip
+

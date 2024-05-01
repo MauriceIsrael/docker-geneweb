@@ -1,0 +1,430 @@
+encoding: utf-8
+gwplus
+
+fam Mairat Maurice + #mp Oran Bénichou Eveline
+src Mairat
+cbp Oran
+fevt
+#marr  #p Oran
+end fevt
+beg
+- f Annie-Rose #occu Professeur_de_Mathématiques 23/6/1950
+- h Denis #occu Retraité_Expert-Comptable #src Mairat 21/6/1952 #bs Livret_de_famille
+- h Pierre #occu Avocat #src Mairat 18/3/1956 #bp Paris
+end
+
+pevt Mairat Annie-Rose
+#birt 23/6/1950 #p Oran
+end pevt
+
+pevt Mairat Denis
+#birt 21/6/1952 #p Oran #s Livret_de_famille
+note Né à 8h45 à la maison 1 Impasse Thierry à Oran
+end pevt
+
+pevt Mairat Pierre
+#birt 18/3/1956 #p Paris
+end pevt
+
+fam Israël Jean-Pierre + Mairat Annie-Rose
+src Israël
+fevt
+#marr 
+end fevt
+beg
+- h Ivan
+- h Maurice #occu Ingénieur_en_Informatique #src Israël
+end
+
+fam Mairat Denis +18/9/1976 #mp Issy_Les_Moulineaux Déné Martine,_Louise
+src Mairat
+fevt
+#marr 18/9/1976 #p Issy_Les_Moulineaux
+end fevt
+beg
+- f Cécile #occu Photographe 21/3/1979 #bp Bourg_La_Reine
+- h Julien #occu Développeur_Informatique #src Mairat 19/6/1985 #bp Sèvres
+- f Sophie #occu Cadre_dans_la_Banque #src Mairat 17/10/1988 #bp Neuilly_Sur_Seine
+end
+
+pevt Mairat Cécile
+#birt 21/3/1979 #p Bourg_La_Reine
+end pevt
+
+pevt Mairat Julien
+#birt 19/6/1985 #p Sèvres
+end pevt
+
+pevt Mairat Sophie
+#birt 17/10/1988 #p Neuilly_Sur_Seine
+end pevt
+
+fam Mairat Pierre + Falco Myriam #occu Avocat 7/7/1957
+src Mairat
+cbp Paris_14°
+fevt
+#marr 
+end fevt
+beg
+- f Marion 3/6/1991
+- h Tom 3/6/1991
+- f Lison 3/6/1991
+end
+
+pevt Mairat Marion
+#birt 3/6/1991 #p Paris_14°
+end pevt
+
+pevt Mairat Tom
+#birt 3/6/1991 #p Paris_14°
+end pevt
+
+pevt Mairat Lison
+#birt 3/6/1991 #p Paris_14°
+end pevt
+
+pevt Falco Myriam
+#birt 7/7/1957
+end pevt
+
+fam Déné Raymond + Vasseur Paule
+src Déné
+fevt
+#marr 
+end fevt
+beg
+- f Anne-Marie #occu Chef_Comptable 26/1/1948 #bp La_Courneuve
+- h Gérard #occu Employé_SNCF 13/1/1949 12/12/2019
+- f Martine,_Louise #occu Professeur_de_Français 13/5/1950 #bp La_Courneuve
+- f Christine 17/3/1953 #bp Paris od
+end
+
+pevt Déné Anne-Marie
+#birt 26/1/1948 #p La_Courneuve
+end pevt
+
+pevt Déné Gérard
+#birt 13/1/1949
+#deat 12/12/2019
+end pevt
+
+pevt Déné Martine,_Louise
+#birt 13/5/1950 #p La_Courneuve
+end pevt
+
+pevt Déné Christine
+#birt 17/3/1953 #p Paris
+#deat 
+end pevt
+
+fam Maillet Jean-Pierre + #noment Déné Anne-Marie
+fevt
+#nmen 
+end fevt
+beg
+- f Delphine 13/10/1969 #bp Issy_les_Moulineaux
+- h Sébastien 5/1/1974 #bp Issy_Les_Moulineaux
+end
+
+pevt Maillet Delphine
+#birt 13/10/1969 #p Issy_les_Moulineaux
+end pevt
+
+pevt Maillet Sébastien
+#birt 5/1/1974 #p Issy_Les_Moulineaux
+end pevt
+
+fam Ben_Miara Judas 7/5/1897 #bp Mecheria_(Algérie) 9/1/1975 #dp Reims + Strich Rebecca 26/3/1897 #bp Oran 19/12/1984 #dp Reims
+fevt
+#marr 
+end fevt
+beg
+- h Gilbert
+- f Fernande 13/12/1918 #bp Oran 18/1/1983 #dp Paris
+- h Roger Mairat #bp Oran
+- h Maurice Mairat #salias Miara #alias Miara 4/5/1920 #bp Oran 16/10/1963 #dp Paris_13°
+- h Simon Mairat 8/4/1922 #bp Oran ?
+end
+
+notes Mairat Maurice
+beg
+Changement de nom de Miara en Mairat
+end notes
+
+pevt Ben_Miara Gilbert
+#deat 
+end pevt
+
+pevt Ben_Miara Fernande
+#birt 13/12/1918 #p Oran
+#deat 18/1/1983 #p Paris
+end pevt
+
+pevt Mairat Roger
+#birt  #p Oran
+#deat 
+end pevt
+
+pevt Mairat Maurice
+#birt 4/5/1920 #p Oran
+note Changement de nom de Miara en Mairat
+#deat 16/10/1963 #p Paris_13°
+end pevt
+
+pevt Mairat Simon
+#birt 8/4/1922 #p Oran
+#deat 
+end pevt
+
+pevt Strich Rebecca
+#birt 26/3/1897 #p Oran
+#deat 19/12/1984 #p Reims
+end pevt
+
+pevt Ben_Miara Judas
+#birt 7/5/1897 #p Mecheria_(Algérie)
+#deat 9/1/1975 #p Reims
+end pevt
+
+fam Tobin Pax + #nm Mairat Cécile
+comm Vie en concubinage 
+fevt
+#nmar 
+end fevt
+beg
+- h Sonny Mairat 3/2/2017
+end
+
+pevt Mairat Sonny
+#birt 3/2/2017
+end pevt
+
+fam Tobin Patrick 0 + #noment Tobin_? Kathe 0
+fevt
+#nmen 
+end fevt
+beg
+- Tamu
+- h Pax #alias Zoega
+end
+
+fam Bénichou Simon #occu Commerçant + Médioni Yvonne #occu Sans
+fevt
+#marr 
+end fevt
+beg
+- f Lydia #occu Sans
+- h Claude #occu Avocat
+- f Eveline 3/1/1930 #bp Oran 25/3/2012 #dp Paris_12°
+end
+
+pevt Bénichou Eveline
+#birt 3/1/1930 #p Oran
+#deat 25/3/2012 #p Paris_12°
+note Décès Hopital Saint Antoine
+end pevt
+
+fam Israël Lucien 0 + #noment Israël Gisele 0
+fevt
+#nmen 
+end fevt
+beg
+- h Jean-Pierre #occu Professeur_de_Mathématiques
+end
+
+fam Vasseur Octave 1900 #bp Lille 1952 #dp Paris + #noment Verrier Louise 10/1900 #bp Paris 1977 #dp Cannes
+fevt
+#nmen 
+end fevt
+beg
+- f Paule #occu Sans 18/8/1921 #bp Paris_17ème 25/2/2010 #dp Pau
+end
+
+pevt Vasseur Paule
+#birt 18/8/1921 #p Paris_17ème
+#deat 25/2/2010 #p Pau
+end pevt
+
+pevt Verrier Louise
+#birt 10/1900 #p Paris
+#deat 1977 #p Cannes
+end pevt
+
+pevt Vasseur Octave
+#birt 1900 #p Lille
+#deat 1952 #p Paris
+end pevt
+
+fam Déné Joseph + Hebras Delphine
+cbp Lunéville
+fevt
+#marr 
+end fevt
+beg
+- f Simone-Marcelle 21/3/1910 2005
+- h Joseph-Emile 18/6/1911 1973 #dp Bobigny
+- h Henri-Augustin 1/1/1914 1985 #dp Bobigny
+- h Raymond #occu Chromiste_Héliograveur 14/8/1915 #bs Mémoire_Raymond_Déné 25/1/1981 #dp GolfeJuan
+end
+
+notes Déné Raymond
+beg
+Né à 11 heures, 27 rue du Manège
+end notes
+
+pevt Déné Simone-Marcelle
+#birt 21/3/1910 #p Lunéville
+#deat 2005
+end pevt
+
+pevt Déné Joseph-Emile
+#birt 18/6/1911 #p Lunéville
+#deat 1973 #p Bobigny
+end pevt
+
+pevt Déné Henri-Augustin
+#birt 1/1/1914 #p Lunéville
+#deat 1985 #p Bobigny
+end pevt
+
+pevt Déné Raymond
+#birt 14/8/1915 #p Lunéville #s Mémoire_Raymond_Déné
+note Né à 11 heures, 27 rue du Manège
+#deat 25/1/1981 #p GolfeJuan
+end pevt
+
+fam Maillet Marie_Joseph_Emile + Plazanet Angèle 27/5/1909 #bp Veix_(Corrèze) 30/11/1985 #dp Tulle_(Corrèze)
+fevt
+#marr 
+end fevt
+beg
+- f Odette 19/6/1934 #bp Paris_15° ?
+- h Jean-Pierre 17/12/1943 #bp Paris_14°
+end
+
+pevt Maillet Odette
+#birt 19/6/1934 #p Paris_15°
+end pevt
+
+pevt Maillet Jean-Pierre
+#birt 17/12/1943 #p Paris_14°
+end pevt
+
+pevt Plazanet Angèle
+#birt 27/5/1909 #p Veix_(Corrèze)
+#deat 30/11/1985 #p Tulle_(Corrèze)
+end pevt
+
+fam Maillet Marie_Joseph_Chery 1856 #bp Paris_6° 28/1/1913 #dp St_Marcouf_(Manche) + #noment Wattebled Marie_Victorine 2/7/1869 10/8/1909 #dp Nogent_s/Oise_(95)
+fevt
+#nmen 
+end fevt
+beg
+- h Marie_Joseph_Emile 23/2/1909 #bp Nogent_s/Oise 15/10/2008 #dp Baziège_(Hte_Garonne)
+end
+
+pevt Maillet Marie_Joseph_Emile
+#birt 23/2/1909 #p Nogent_s/Oise
+#deat 15/10/2008 #p Baziège_(Hte_Garonne)
+end pevt
+
+pevt Wattebled Marie_Victorine
+#birt 2/7/1869
+#deat 10/8/1909 #p Nogent_s/Oise_(95)
+end pevt
+
+pevt Maillet Marie_Joseph_Chery
+#birt 1856 #p Paris_6°
+#deat 28/1/1913 #p St_Marcouf_(Manche)
+end pevt
+
+fam Mongeau Marcel 0 + #noment Maillet Delphine
+fevt
+#nmen 
+end fevt
+beg
+- h Romain 31/3/1994 #bp Edimbourg_(Ecosse)
+- f Mathilde 13/2/1997 #bp Toulouse
+- h Enzo 8/6/2001 #bp Toulouze
+end
+
+pevt Mongeau Romain
+#birt 31/3/1994 #p Edimbourg_(Ecosse)
+end pevt
+
+pevt Mongeau Mathilde
+#birt 13/2/1997 #p Toulouse
+end pevt
+
+pevt Mongeau Enzo
+#birt 8/6/2001 #p Toulouze
+end pevt
+
+fam Maillet Sébastien + #noment Inconnu Linda 0
+cbp Saint_Julien_en_Genevoix
+fevt
+#nmen 
+end fevt
+beg
+- h Adrien 9/6/2010
+- h Benjamin 27/9/2011
+- h Valentin 14/2/2015
+end
+
+pevt Maillet Adrien
+#birt 9/6/2010 #p Saint_Julien_en_Genevoix
+end pevt
+
+pevt Maillet Benjamin
+#birt 27/9/2011 #p Saint_Julien_en_Genevoix
+end pevt
+
+pevt Maillet Valentin
+#birt 14/2/2015 #p Saint_Julien_en_Genevoix
+end pevt
+
+fam Déné ?.0 + #noment Moreau ?.0
+fevt
+#nmen 
+end fevt
+beg
+- h Joseph 6/1874 #bp Salzbourg_(Allemagne) 14/8/1946 #dp Egreville_(77)
+end
+
+pevt Déné Joseph
+#birt 6/1874 #p Salzbourg_(Allemagne)
+#deat 14/8/1946 #p Egreville_(77)
+end pevt
+
+fam Hebras ?.0 + #noment Pêtre Rosalie 0
+fevt
+#nmen 
+end fevt
+beg
+- f Delphine 29/9/1890 #bp Lunéville 8/4/1964 #dp Bobigny(93)
+end
+
+pevt Hebras Delphine
+#birt 29/9/1890 #p Lunéville
+#deat 8/4/1964 #p Bobigny(93)
+end pevt
+
+fam Mairat Julien + #mp Tokyo Mairat Wakiko
+fevt
+#marr  #p Tokyo
+end fevt
+beg
+- Emilie 9/3/2024 #bp 11h45
+end
+
+pevt Mairat Emilie
+#birt 9/3/2024 #p 11h45
+end pevt
+
+fam Wako Papa 0 + #noment Wako Maman 0
+fevt
+#nmen 
+end fevt
+beg
+- f Wakiko Mairat #occu Assistante_Dentaire
+end

@@ -10,7 +10,7 @@ SETUP_PORT=2316
 DATA_HOME=${HOME}/GenealogyData
 LANGUAGE="en"
 HOST_IP="172.17.0.1"
-TIME_ZONE="Australia/Melbourne"
+TIME_ZONE="France/Paris"
 
 function containerName()
 {
@@ -64,7 +64,7 @@ function checkoutRepo()
 
 function buildContainer()
 {
-    docker build -t momoz/geneweb:latest -t momoz/geneweb:${PROJECT_RELEASE} .
+    docker build -t MauriceIsrael/docker-geneweb:latest -t MauriceIsrael/docker-geneweb:${PROJECT_RELEASE} .
 }
 
 function runContainer()
@@ -81,12 +81,12 @@ function runContainer()
         --restart unless-stopped \
         -p ${SETUP_PORT}:2316 \
         -p ${WEB_PORT}:2317 \
-        -v ${DATA_HOME}:/usr/local/var/geneweb/ \
+        -v ${DATA_HOME}:/opt/geneweb/ \
         --env HOST_IP=${HOST_IP} \
         --env LANGUAGE=${LANGUAGE} \
         --env TZ=${TIME_ZONE} \
         --name $(containerName) \
-        momoz/geneweb:latest
+        MauriceIsrael/docker-geneweb:2.0
 }
 
 function stopContainer()
